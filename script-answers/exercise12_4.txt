@@ -1,0 +1,5 @@
+root@797c51598f94:/# curl -sL https://deb.nodesource.com/setup_20.x | bash
+apt install -y nodejs
+root@797c51598f94:/# cd usr/src/app
+root@797c51598f94:/usr/src/app# node index.js
+Hello World

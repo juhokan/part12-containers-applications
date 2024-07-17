@@ -1,0 +1,3 @@
+root@797c51598f94:/usr/src/app# apt-get update
+root@797c51598f94:/usr/src/app# apt-get -y install nano
+root@797c51598f94:/usr/src/app# nano index.js
