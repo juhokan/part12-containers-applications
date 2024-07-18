@@ -1,10 +1,23 @@
-docker container run -it ubuntu
-Unable to find image 'ubuntu:latest' locally
-latest: Pulling from library/ubuntu
-eed1663d2238: Pull complete
-Digest: sha256:2e863c44b718727c860746568e1d54afd13b2fa71b160f5cd9058fc436217b30
-Status: Downloaded newer image for ubuntu:latest
-root@dec31179e58e:/# mkdir -p /usr/src/app
-root@dec31179e58e:/# touch /usr/src/app/index.js
-root@dec31179e58e:/# exit
+Script started on Thu Jul 18 17:29:32 2024
+[1m[7m%[27m[1m[0m                                                                          
+ 
+
+[0m[27m[24m[Jjuhokangas@Juhos-MBP part12-containers-applications % [K[?2004h[7mdocker container run [7m-[7mit ubuntu[27m[K[A[44C[27md[27mo[27mc[27mk[27me[27mr[27m [27mc[27mo[27mn[27mt[27ma[27mi[27mn[27me[27mr[27m [27mr[27mu[27mn[27m -[27mi[27mt[27m [27mu[27mb[27mu[27mn[27mt[27mu[?2004l
+
+[?2004h]0;root@fa0b03673183: /root@fa0b03673183:/# [7mmkdir /usr/src/app[27mmkdir /usr/src/app
+[?2004l
+[?2004h]0;root@fa0b03673183: /root@fa0b03673183:/# cd    ls
+[?2004l
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;34mmedia[0m  [01;34mopt[0m   [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmnt[0m    [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+[?2004h]0;root@fa0b03673183: /root@fa0b03673183:/# cd usr/src/app
+[?2004l
+[?2004h]0;root@fa0b03673183: /usr/src/approot@fa0b03673183:/usr/src/app# [7mtouch[27mtouch index.js
+[?2004l
+[?2004h]0;root@fa0b03673183: /usr/src/approot@fa0b03673183:/usr/src/app# exit
+[?2004l
 exit
+[1m[7m%[27m[1m[0m                                                                          
+ 
+
+[0m[27m[24m[Jjuhokangas@Juhos-MBP part12-containers-applications % [K[?2004heexit[?2004l
